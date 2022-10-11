@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@font-face {
+    font-family: 'Fixedsys Excelsior 3.01';
+    src: url(./../../src/fonts/FSEX300.ttf);
+ }
+
+:root {
+    --font-size: 25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: white;
+    font-family: 'Jetbrains Mono', monospace;
+} 
+
+ 
+
+#terminal  {
+    position: absolute;
+    font-size: var(--font-size);
+}
+
+input {
+    font-size: var(--font-size);
+    resize: auto;
+    outline: none;
+    border: none;
+    /* width: 100rem; /* don't change this */ 
+} 
